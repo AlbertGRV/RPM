@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход — TunHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar"></div>
+        <div class="header-content">
+            <a href="index.html" class="logo-link"><div class="logo">TunHub</div></a>
+            <nav class="nav">
+                <a href="catalog.html" class="nav-link">Диски</a>
+                <a href="#" class="nav-link">Проставки</a>
+                <a href="#" class="nav-link">Интерьер</a>
+                <a href="#" class="nav-link">Экстерьер</a>
+                <a href="#" class="nav-link">Аксессуары</a>
+                <a href="#" class="nav-link">Двигатель</a>
+                <a href="#" class="nav-link">Шины</a>
+            </nav>
+            <div class="cart">| Корзина/ 0 BYN</div>
+            <a href="register.html" class="nav-link reg-btn">Зарегистрироваться</a>
+        </div>
+    </header>
+    <main class="auth-main">
+        <form class="auth-form" id="login-form">
+            <h2 class="auth-title">Вход</h2>
+            <input type="email" class="auth-input" name="email" placeholder="E-mail" required>
+            <input type="password" class="auth-input" name="password" placeholder="Пароль" required>
+            <button class="auth-button" type="submit">Войти</button>
+            <p class="auth-switch">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+            <div class="auth-error" id="login-error"></div>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Режим работы: 11:00 – 19:00. Пн – Пт.</p>
+        <p>Вся информация, представленная на сайте, носит информационный характер и не является публичной офертой.</p>
+        <p>Copyright 2025 ©</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
